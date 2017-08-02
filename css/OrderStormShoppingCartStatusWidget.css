@@ -1,0 +1,63 @@
+div.ostrm_shopping_cart_status_widget
+{
+	font-size: 14px;
+	text-align: center;
+	width: 215px;
+	padding: 10px;
+	/* background-color: blue; */
+	/* color: white; */
+	-webkit-border-radius: 7px;
+	-khtml-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px; 
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -o-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+div.ostrm_shopping_cart_status_widget > div.items_qty
+{
+	text-align: center;
+}
+
+div.ostrm_shopping_cart_status_widget > div.items_qty > span.qty
+{
+	font-weight: bold;
+}
+
+div.ostrm_shopping_cart_status_widget > div.order_total
+{
+	margin-top: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.ostrm_shopping_cart_status_widget > div.view_cart_button
+{
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 5px;
+	background-color: #F1F1F1;
+	color: black;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+
+div.ostrm_shopping_cart_status_widget > div.view_cart_button:hover
+{
+	font-weight: bold;
+}
+
+div.ostrm_shopping_cart_status_widget > div.view_cart_button:active
+{
+	background-color: grey;
+	font-weight: bold;
+}

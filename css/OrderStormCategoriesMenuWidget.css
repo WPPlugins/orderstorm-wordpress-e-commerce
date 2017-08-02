@@ -1,0 +1,95 @@
+.ostrm_categories_menu
+{
+	/* Use .png image for a black background with rounded corners; */
+	/* background: url(../images/menu_bottom.png) 0 100% no-repeat transparent; */
+	padding-bottom: 10px;
+}
+
+.ostrm_categories_mt
+{
+	width:100%;
+	vertical-align: top;
+	padding: 10px 0px 0px 0px;
+	/* Use .png image for a black background with rounded corners; */
+	/* background: url(../images/menu_top.png) 0 0 no-repeat; */
+}
+
+.ostrm_categories_menu.topmenu
+{
+	width: 233px !important;
+	margin-bottom: 10px !important;
+	padding-bottom: 6px;
+}
+
+.ostrm_categories_menu.submenu
+{
+	width: 233px !important;
+	margin-left: 0px !important;
+	display: none;
+}
+
+.ostrm_categories_menu_list
+{
+	width:233px !important;
+	background-color: #F1F1F1 !important;
+	/* Use .png image for a black background with rounded corners; */
+	/* background -image:url(../images/menu_center.png); */
+	margin:0px;
+	padding:0px;
+}
+
+.ostrm_categories_menu_list ul
+{
+	display: inline;
+	font-family: Tahoma, Arial, sans-serif !important;
+	font-size: 13px !important;
+	color: black !important;
+	list-style-type: none !important;
+	text-align: left !important;
+	margin: 0px !important;
+	padding: 0px;
+}
+
+.ostrm_categories_menu_list ul li 
+{
+	margin-top: 0px !important;
+	margin-left: 0px !important;
+	min-height: 15px !important;
+	padding-top: 6px !important;
+	padding-bottom: 6px !important;
+	padding-left: 35px !important;
+	padding-right: 15px !important;
+	/* border-bottom: 1px solid #323232; */
+	text-align: left !important;
+	/* Use bullet.png image for a right arrow; */
+	/* background-image: url(../images/bullet.png) !important; */
+	background-repeat: no-repeat !important;
+	background-position: 15px 8px !important;
+	list-style-type: none !important;
+}
+
+.ostrm_categories_menu_list ul li.last
+{
+	border-bottom: none !important;
+	margin-bottom: 0px !important;
+}
+
+.ostrm_categories_menu_list a
+{
+	text-decoration: none !important;
+}
+
+.ostrm_categories_menu_list a:link
+{
+	/* color:#FFFFFF !important; */
+}
+
+.ostrm_categories_menu_list a:visited
+{
+	/* color:#FFFFFF !important; */
+}
+
+.ostrm_categories_menu_list a:hover
+{
+	/* color:#e9d400 !important; */
+}

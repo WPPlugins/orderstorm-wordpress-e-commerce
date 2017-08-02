@@ -1,0 +1,117 @@
+.categories.page
+{
+	border: solid #000000 1px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.categories h1
+{
+	margin: 0px;
+	padding-left: 10px;
+	/*font: 2em Tahoma;*/
+	/*color: white !important;*/
+	/*background-color: #808080 !important;*/
+	-webkit-border-top-left-radius: 5px;
+	-khtml-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-khtml-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;
+}
+
+.categories .long_description
+{
+	padding: 0px 10px 10px 10px;
+	/*background-color: #F0F0F0;*/
+	-webkit-border-bottom-right-radius: 5px;
+	-khtml-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-khtml-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.categories .tile_medium
+{
+	float: left;
+	margin: 4px 2px 4px 6px !important;
+	width: 170px;
+	border: 2px solid #808080;
+	/*background-color: #808080;*/
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.categories .tile_medium a
+{
+	/*font: 10pt Tahoma;*/
+	text-decoration: none;
+}
+
+.categories .tile_medium a:link
+{
+	/*color: white;*/
+}
+
+.categories .tile_medium a:active
+{
+	/*color: #ffff00;*/
+}
+
+.categories .tile_medium a:hover
+{
+	/*color: #dddd00;*/
+}
+
+.categories .tile_medium a:visited
+{
+	/*color: #00305E;*/
+}
+
+.categories .tile_medium div
+{
+	width: 170px;
+	height: 154px;
+	overflow: hidden;
+	background: url(images/no-image.png) no-repeat center;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.categories .tile_medium img
+{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	max-width: 150px !important;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.categories .tile_medium label
+{
+	display: block;
+	padding-top: 2px;
+	height: 36px;
+	overflow: hidden;
+}
+
+div.categories.list div.tile_medium label,
+div.categories.list div.tile_medium img.category-image {
+	cursor: pointer;
+}

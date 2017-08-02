@@ -1,0 +1,367 @@
+/*****************************************************************************/
+/* Special style for the OrderStorm e-Commerce Product Details page,         */
+/* when the left sidebar is not to be shown there                            */
+/*****************************************************************************
+#content.product
+{
+	width: 100%;
+	float: left;
+}
+*****************************************************************************/
+
+.product.page, .product.page td, .product.page p
+{
+	/*font-size: 12px !important;*/
+}
+
+.product.page
+{
+	/*background-color: #FFFFFF;*/
+	padding: 0 5px 5px 5px;
+	overflow: hidden;
+}
+
+.product.page p.no_pre_spacer
+{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.product.page p.product_name
+{
+	font-weight: bold;
+}
+
+p.product_name
+{
+	margin-bottom: 0;
+}
+
+.product.page p.no_inter_line
+{
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+span.item_number
+{
+	font-weight: normal;
+}
+
+span.retail_price
+{
+	font-weight: bold;
+}
+
+span.your_cost
+{
+	font-weight: bold;
+}
+
+.product.page hr.separator
+{
+	color: silver;
+	background-color: silver;
+	height:1px;
+	border:none;
+}
+
+.product.page div.product_image
+{
+	margin: 0 20px 5px 20px;
+	float: right;
+}
+
+.product.page input,
+.product.page select
+{
+	font-size: 100% !important;
+}
+
+.product.page form
+{
+	width: 100% !important;
+	padding: 8px 0 0 4px !important;
+	background-color: transparent !important;
+	background-image: none !important;
+	background-repeat: repeat !important;
+}
+
+div.quantity
+{
+	margin-bottom: 19px;
+}
+
+div.quantity input[type=text],
+div.quantity input[type=submit],
+div.quantity input[type=image]
+{
+	margin-bottom: 0px !important;
+}
+
+.product.page > form #Quantity
+{
+	background-color: white !important;
+	background-image: none !important;
+	background-repeat: repeat !important;
+	background-position: inherit;
+	height: auto;
+	width: auto;
+}
+
+.features_table
+{
+	text-align: left;
+}
+
+div.qa
+{
+	border-top-color: silver;
+	border-top-width: 3px;
+	border-top-style: solid;
+	padding-top: 10px;
+	text-align: left;
+}
+
+div.qa div.title
+{
+	text-align: center;
+	border-bottom-color: silver;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	padding-bottom: 10px;
+	font-size: x-large;
+	color: silver;
+}
+
+div.qa div.row
+{
+	padding-top: 5px;
+	border-top-color: silver;
+	border-top-width: 1px;
+	border-top-style: solid;
+	padding-bottom: 5px;
+}
+
+div.qa div.first.row
+{
+	border-top: none;
+}
+
+td.qty_discount
+{
+	font-size: small;
+	color: gray;
+	padding: 0px !important;
+}
+
+td.qty_discount.title
+{
+	text-align: center;
+}
+
+div.qa_form
+{
+	border-top-color: silver;
+	border-top-width: 1px;
+	border-top-style: solid;
+	padding-top: 10px;
+	border-bottom-color: silver;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+div.qa_form div.title
+{
+	text-align: left;
+	border-bottom-color: silver;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	padding-bottom: 10px;
+	font-size: large;
+	color: black;
+}
+
+div.qa_form div.form
+{
+	width: 620px;
+	margin: 0px auto;
+	padding-top: 5px;
+}
+
+div.qa_form div.form form div.row
+{
+	clear: both;
+	padding-top: 5px;
+}
+
+div.qa_form div.form form div.row span.label
+{
+	float: left;
+	width: 200px;
+	text-align: right !important;
+}
+
+div.qa_form div.form form div.row span.label label
+{
+	font-size: 14px !important;
+}
+
+div.qa_form div.form form div.row span.formw
+{
+	float: right;
+	width: 400px;
+	text-align: left;
+}
+
+div.qa_form div.form form div.row span.formw textarea
+{
+	font-size: 14px !important;
+	width: 390px !important;
+}
+
+div.qa_form div.form form div.row span.formw #email
+{
+	font-size: 14px !important;
+}
+
+div.spacer
+{
+  clear: both;
+}
+
+.ITE
+{
+	font: inherit;
+	padding: 3px 2px 1px 3px;
+}
+
+.ITEhover
+{
+	background-color: #ffC;
+}
+
+.ITEinput
+{
+	border: 1px solid black;
+	margin: 0px 0px 0px 0px;
+}
+
+.ITEinput:focus
+{
+	outline: none;
+}
+
+.ITEhasInput
+{
+	padding: 0px 0px 0px 0px;
+}
+
+#product_name
+{
+	width: 504px;
+}
+
+#product_name input
+{
+	float: left;
+	font: inherit;
+	padding: 3px 2px 1px 3px;
+	width: 500px;
+}
+
+#short_description textarea
+{
+	float: left;
+	font: inherit;
+	padding: 3px 2px 1px 3px;
+	width: 500px;
+	height: 500px;
+}
+
+#days_to_ship
+{
+	vertical-align: top;
+	width: 24px;
+}
+
+#days_to_ship input
+{
+	font: inherit;
+	padding: 3px 2px 1px 3px;
+	width: 20px;
+}
+
+#item_number
+{
+	vertical-align: top;
+	width: 104px;
+}
+
+#item_number input
+{
+	font: inherit;
+	padding: 3px 2px 1px 3px;
+	width: 100px;
+}
+
+#retail_price
+{
+	vertical-align: top;
+	width: 104px;
+}
+
+#retail_price input
+{
+	font: inherit;
+	padding: 3px 2px 1px 3px;
+	width: 100px;
+}
+
+#your_cost
+{
+	vertical-align: top;
+	width: 104px;
+}
+
+#your_cost input
+{
+	font: inherit;
+	padding: 3px 2px 1px 3px;
+	width: 100px;
+}
+
+#edit_product
+{
+	display: none;
+	margin-bottom: 1.625em;
+}
+
+.selected-color
+{
+	margin-left: 0.5em;
+}
+
+.does_not_ship_free
+{
+	font-size: 18px;
+	color: red;
+}
+
+tr.productsListRow td {
+	border-top: none;
+}
+
+tr.productsListRow:hover td {
+	background-color: #D6E9F8;
+}
+
+tr.productsOrderFormRow td {
+	border-top: none;
+}
+
+tr.productsOrderFormRow:hover td {
+	background-color: #D6E9F8;
+}
